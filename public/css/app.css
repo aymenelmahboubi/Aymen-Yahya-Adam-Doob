@@ -92,3 +92,94 @@ header{
     background-color: red;
     color: white;
 }
+/* css  */
+.contact-area{
+    
+    height: 50vh;
+}
+.contact-content{
+    padding-top: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.discr{
+    display: flex;
+    flex-direction: column;
+   align-content: start;
+    /* text-align: start; */
+}
+.discr > h3{
+    color: red;
+}
+.info-area{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.gap{
+    display: flex;
+    gap: 40px;
+}
+
+.info-area > div input , textarea{
+    background:#f4fafe;
+    width: 25vw;
+    height: 5vh;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+   
+}
+textarea{
+    width: 50vw;
+    height: 30vh;
+}
+
+.button-mail{
+    background: #FF3946;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+}
+.mail-link{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    color: #ffffff;
+    background: #314584;
+}
+.footer-content{
+    margin-top: 20vh;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.footer-discrp > h1{
+    color: #FF3946;
+}
+.footer-nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.footer-nav-links > .f-l{
+    text-decoration: none;
+    color: white;
+}
+.links-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
