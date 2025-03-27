@@ -1,40 +1,47 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
     padding: 20px 180px;
 }
-.nav-left{
+
+.nav-left {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10vw;
 }
-.links{
+
+.links {
     display: flex;
     gap: 30px;
 }
-.links a{
+
+.links a {
     color: #6b78a8;
     font-weight: bold;
 }
-.links a:hover{
+
+.links a:hover {
     color: red;
 }
-.nav-right button{
+
+.nav-right button {
     width: 10vw;
     height: 6vh;
     border: 1px solid white;
@@ -44,27 +51,32 @@ nav{
     border-radius: 5px;
     cursor: pointer;
 }
-.nav-right button:hover{
+
+.nav-right button:hover {
     background-color: red;
     color: white;
 }
-header{
+
+header {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 10vw;
 }
-.header-right img{
+
+.header-right img {
     width: 35vw;
 }
-.header-left{
+
+.header-left {
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
     gap: 40px;
 }
-.left-title{
+
+.left-title {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -72,21 +84,25 @@ header{
     gap: 10px;
     width: 35vw;
 }
-.left-title h1{
+
+.left-title h1 {
     color: #384b88;
     font-size: 60px;
 }
-.left-title p{
+
+.left-title p {
     color: grey;
     width: 30vw;
     font-size: 16px;
 }
-.left-button{
+
+.left-button {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 5px;
 }
-.left-button button{
+
+.left-button button {
     border: none;
     background-color: white;
     color: #6b78a8;
@@ -95,28 +111,40 @@ header{
     border-radius: 20px;
     font-weight: bold;
 }
-.left-button button:hover{
+
+.left-button button:hover {
     background-color: red;
     color: white;
 }
-.sec1{
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.sec1 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.sec1-left{
+
+.sec1-left {
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 30px;
 }
-.sec1-left h1{
+
+.sec1-left h1 {
     color: #384b88;
     width: 25vw;
     font-size: 40px;
 }
-.sec1-left button{
+
+.sec1-left button {
     border: none;
     background-color: white;
     color: #6b78a8;
@@ -125,96 +153,117 @@ header{
     border-radius: 20px;
     font-weight: bold;
 }
-.sec1-left button:hover{
+
+.sec1-left button:hover {
     background-color: red;
     color: white;
 }
-.sec1-right{
+
+.sec1-right {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.sec1-right1{
+
+.sec1-right1 {
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 15px;
     width: 15vw;
 }
-.sec1-right1 h2{
+
+.sec1-right1 h2 {
     color: #384b88;
     font-size: 23px;
 }
-.sec1-right1 p{
+
+.sec1-right1 p {
     color: #6b78a8;
     width: 14vw;
 
 }
+
+.sec1-right1 .img2 {
+    height: 8.5vh;
+}
+
 /* css  */
-.contact-area{
-    
+.contact-area {
+
     height: 50vh;
 }
-.contact-content{
+
+.contact-content {
     padding-top: 2rem;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2rem;
 }
-.discr{
+
+.discr {
     display: flex;
     flex-direction: column;
-   align-content: start;
+    align-content: start;
     /* text-align: start; */
 }
-.discr > h3{
+
+.discr>h3 {
     color: red;
 }
-.info-area{
+
+.info-area {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
-.gap{
+
+.gap {
     display: flex;
     gap: 40px;
 }
 
-.info-area > div input , textarea{
-    background:#f4fafe;
+.info-area>div input,
+textarea {
+    background: #f4fafe;
     width: 25vw;
     height: 5vh;
     outline: none;
     border: none;
     border-radius: 5px;
-   
+
 }
-textarea{
+
+textarea {
     width: 52vw;
     height: 10vh;
 }
 
-.button-mail{
+.button-mail {
     background: #FF3946;
     border: none;
     border-radius: 25px;
     padding: 15px;
 }
-.mail-link{
+
+.mail-link {
     text-decoration: none;
     color: white;
 }
-footer{
+
+footer {
+    padding: 30px;
     width: 100%;
     height: fit-content;
     color: #ffffff;
     background: #314584;
 }
-.footer-content{
+
+.footer-content {
     height: 35vh;
     display: flex;
     flex-direction: column;
@@ -224,31 +273,44 @@ footer{
     gap: 2rem;
 }
 
-.footer-discrp > h1{
+.footer-discrp>h1 {
     color: #FF3946;
 }
-.footer-nav-links{
+
+.footer-nav-links {
     display: flex;
     flex-direction: row;
     gap: 2rem;
 }
-.footer-nav-links > .f-l{
+
+.footer-nav-links>.f-l {
     text-decoration: none;
     color: white;
 }
-.links-icons{
+
+.links-icons {
     display: flex;
     flex-direction: row;
     gap: 50px;
 }
-@media (max-width: 425px) {
 
-    .contact-area{
+.menu {
+    display: none;
+}
+
+.chek,
+.links .fa-xmark {
+    display: none;
+}
+
+@media (max-width: 425px) {
+    .contact-area {
         width: 100%;
         height: fit-content;
         /* background: #8ea8ff8c; */
     }
-    .contact-content{
+
+    .contact-content {
         padding-top: 10px;
         padding-bottom: 10px;
         display: flex;
@@ -257,24 +319,30 @@ footer{
         justify-content: center;
         gap: 2px;
     }
-    textarea{
+
+    textarea {
         width: 60vw;
     }
-    .discr{
+
+    .discr {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-    .discr > h3{
+
+    .discr>h3 {
         color: red;
     }
-    .info-area{
+
+    .info-area {
         display: flex;
         flex-direction: column;
         gap: 25px;
         margin-top: 5vh;
     }
-    .info-area > input , textarea{
+
+    .info-area>input,
+    textarea {
         background: #f4fafe;
         padding: 0.5rem 2rem;
         outline: none;
@@ -282,24 +350,27 @@ footer{
         border-radius: 5px;
         font-weight: 300;
     }
-    
-    .button-mail{
+
+    .button-mail {
         border: none;
         border-radius: 25px;
         margin-top: 5vh;
     }
-    .mail-link{
+
+    .mail-link {
         text-decoration: none;
         color: white;
     }
+
     /* footer despo  */
-    footer{
-        /* width: 100%;
-        height: fit-content; */
+    footer {
+        padding-top: 80px;
+        height: 100vh;
         color: #ffffff;
         background: #314584;
     }
-    .footer-content{
+
+    .footer-content {
         margin-top: 5rem;
         padding: 2rem 0;
         display: flex;
@@ -309,27 +380,184 @@ footer{
         text-align: center;
         gap: 10vw;
     }
-    
-    .footer-discrp > h1{
+
+    .footer-discrp>h1 {
         color: #FF3946;
         padding-inline: 1rem;
     }
-    .DOOB{
+
+    .DOOB {
         color: red;
     }
-    .footer-nav-links{
+
+    .footer-nav-links {
         display: flex;
         flex-direction: column;
         gap: 1rem;
-        
+
     }
-    
-    .links-icons{
+
+    .links-icons {
         display: flex;
         flex-direction: row;
         gap: 10vw;
     }
-    
 
+    .links {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .menu a {
+        color: #314584;
+        font-weight: bold;
+    }
+
+    nav {
+        width: 100%;
+        padding: 20px;
+        gap: 70px;
+        position: relative;
+    }
+
+    .nav-right button {
+        width: 20vw;
+    }
+
+    header {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .header-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .left-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .left-title h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .left-title p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .left-button button {
+        width: 25vw;
+    }
+
+    .header-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-right img {
+        width: 70%;
+    }
+
+    .sec1 {
+        flex-direction: column;
+    }
+
+    .sec1-left {
+        display: flex;
+        align-items: center;
+    }
+
+    .sec1-left h1 {
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .sec1-left button {
+        width: 25vw;
+    }
+
+    .sec1-right {
+        gap: 30vh;
+    }
+
+    .sec1-right1 {
+        align-items: center;
+    }
+
+    .sec1-right1 h2 {
+        font-size: 20px;
+        width: 40vw;
+        text-align: center;
+    }
+
+    .sec1-right1 p {
+        width: 40vw;
+        text-align: center;
+    }
+
+    .sec1-right1 .img2 {
+        height: 10.5vh;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .menu .fa-bars {
+        color: #314584;
+    }
+
+    .links {
+        display: block;
+        background-color: #314584;
+        top: 32px;
+        left: -80vw;
+        width: 35vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 30px;
+        position: absolute;
+        transition: 0.5s ease;
+    }
+
+    #respo:checked+.links {
+        left: 0px;
+    }
+
+    .links a {
+        color: white;
+    }
+
+    .links .fa-xmark {
+        display: block;
+        color: white;
+        position: absolute;
+        top: 0vh;
+        left: 32vw
+    }
 
 }
