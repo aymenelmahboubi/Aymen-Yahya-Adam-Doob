@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 180px;
+}
+.nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+}
+.links{
+    display: flex;
+    gap: 30px;
+}
+.links a{
+    color: #6b78a8;
+    font-weight: bold;
+}
+.links a:hover{
+    color: red;
+}
+.nav-right button{
+    width: 10vw;
+    height: 6vh;
+    border: 1px solid white;
+    background: white;
+    color: red;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-right button:hover{
+    background-color: red;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-right img{
+    width: 35vw;
+}
+.header-left{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 40px;
+}
+.left-title{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    width: 35vw;
+}
+.left-title h1{
+    color: #384b88;
+    font-size: 60px;
+}
+.left-title p{
+    color: grey;
+    width: 30vw;
+    font-size: 16px;
+}
+.left-button{
+    display: flex;
+    justify-content:center;
+    gap: 5px;
+}
+.left-button button{
+    border: none;
+    background-color: white;
+    color: #6b78a8;
+    width: 13vw;
+    height: 7vh;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.left-button button:hover{
+    background-color: red;
+    color: white;
+}
